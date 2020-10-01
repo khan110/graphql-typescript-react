@@ -1,0 +1,22 @@
+
+.MissionList {
+    height: 100vh;
+    
+    background-color: #ececec;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .MissionList_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .MissionList_item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #919191;
+    cursor: pointer;
+  }
