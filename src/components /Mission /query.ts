@@ -9,4 +9,4 @@ query MissionsInfo{
       launch_year
     }
   }
-` 
+`   

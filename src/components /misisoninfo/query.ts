@@ -19,4 +19,4 @@ query LaunchMissionInfo($id: String!) {
       }
     }
   }
-`
+` 

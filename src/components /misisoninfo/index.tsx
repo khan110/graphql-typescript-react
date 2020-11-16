@@ -1,6 +1,5 @@
 import React from 'react';
 import { useLaunchMissionInfoQuery } from './../../generated/graphql'
-//import MissionList from '../Mission /Missionlist';
 import MissionInfo from './Missioninfo';
 
 interface OwnProps {
@@ -13,7 +12,7 @@ interface OwnProps {
     });
     React.useEffect(() => {
       refetch();
-    }, [id]);
+    }, [id, refetch]);
   
     if (loading) {
       return <div>Loading...</div>;
